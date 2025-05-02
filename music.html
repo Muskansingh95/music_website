@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Playlist</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+
+        <aside class="left-sidebar">
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search songs...">
+                <button id="search-btn">
+                    <img src="image/search.png" alt="Search">
+                </button>
+            </div>
+
+            <h2 class="all-songs-heading"><span class="music-icon">🎵</span> All Songs</h2>
+            
+            <ul id="song-list">
+                <li data-image="image/butterfly.jpg" data-song="songs/song 1.mp3" data-artist="Artist 1">
+                    <img src="image/butterfly.jpg" alt="The Butterfly"> The Butterfly
+                </li>
+                <li data-image="image/new day.jpg" data-song="songs/song 2.mp3" data-artist="Artist 2">
+                    <img src="image/new day.jpg" alt="A New Day"> A New Day
+                </li>
+                <li data-image="image/girls.jpg" data-song="songs/song 3.mp3" data-artist="Artist 3">
+                    <img src="image/girls.jpg" alt="Serenity"> Serenity
+                </li>
+                <li data-image="image/eclipse.jpg" data-song="songs/song 4.mp3" data-artist="Artist 4">
+                    <img src="image/eclipse.jpg" alt="Eclipse"> Eclipse
+                </li>
+                <li data-image="image/skyline.jpg" data-song="songs/song 5.mp3" data-artist="Artist 5">
+                    <img src="image/skyline.jpg" alt="Skyline"> Skyline
+                </li>
+                <li data-image="image/harmony.jpg" data-song="songs/song 6.mp3" data-artist="Artist 6">
+                    <img src="image/harmony.jpg" alt="Harmony"> Harmony
+                </li>
+                 </li>
+                <li data-image="image/midnight.jpg" data-song="songs/song 4.mp3" data-artist="Artist 7">
+                    <img src="image/midnight.jpg" alt="Eclipse"> Someone like you
+                </li>
+                <li data-image="image/dreamscape.jpg" data-song="songs/song 7.mp3" data-artist="Artist 8">
+                    <img src="image/dreamscape.jpg" alt="Skyline"> Uptown Funk
+                </li>
+                <li data-image="image/romantic.jpg" data-song="songs/song 8.mp3" data-artist="Artist 9">
+                    <img src="image/romantic.jpg" alt="Harmony"> Take me home
+                </li>
+                <li data-image="image/hanuman.jpg" data-song="songs/song 10.mp3" data-artist="Artist 10">
+                    <img src="image/hanuman.jpg" alt="Skyline"> Hanuman Chalisa
+                </li>
+                <li data-image="image/vidai.jpg" data-song="songs/song 11.mp3" data-artist="Artist 11">
+                    <img src="image/vidai.jpg" alt="Harmony"> Babul Ka ghar
+                </li>
+                <li data-image="image/radha.jpg" data-song="songs/song 12.mp3" data-artist="Artist 12">
+                    <img src="image/radha.jpg" alt="Skyline"> Radhe Radhe
+                </li>
+                
+            </ul>
+        </aside>
+
+       <!-- Middle Section-->
+<main class="middle">
+    <img id="main-image" src="image/middle upper.jpg" alt="Selected Song">
+    
+    <ul id="middle-song-list">
+        <li class="song-container">
+            <img src="image/butterfly.jpg" alt="icon">
+            <div class="song-info">
+                The Butterfly <span>Alice Oliver</span> 04:00
+            </div>
+            <div class="song-controls">
+                <button class="play-btn">▶</button>
+                <button class="pause-btn">⏸</button>
+            </div>
+        </li>
+        
+        <li class="song-container">
+            <img src="image/new day.jpg" alt="icon">
+            <div class="song-info">
+                A New Day <span>Alice Oliver</span> 03:45
+            </div>
+            <div class="song-controls">
+                <button class="play-btn">▶</button>
+                <button class="pause-btn">⏸</button>
+            </div>
+        </li>
+
+        <li class="song-container">
+            <img src="image/senerity.jpg" alt="icon">
+            <div class="song-info">
+                Serenity <span>Alice Oliver</span> 05:20
+            </div>
+            <div class="song-controls">
+                <button class="play-btn">▶</button>
+                <button class="pause-btn">⏸</button>
+            </div>
+        </li>
+
+        <li class="song-container">
+            <img src="image/eclipse.jpg" alt="icon">
+            <div class="song-info">
+                Eclipse <span>Alice Oliver</span> 04:30
+            </div>
+            <div class="song-controls">
+                <button class="play-btn">▶</button>
+                <button class="pause-btn">⏸</button>
+            </div>
+        </li>
+
+        <li class="song-container">
+            <img src="image/heart.jpg" alt="icon">
+            <div class="song-info">
+                Skyline <span>Alice Oliver</span> 03:50
+            </div>
+            <div class="song-controls">
+                <button class="play-btn">▶</button>
+                <button class="pause-btn">⏸</button>
+            </div>
+        </li>
+        
+        <li class="song-container">
+            <img src="image/love.jpg" alt="icon">
+            <div class="song-info">
+                Skyline <span>Alice Oliver</span> 03:50
+            </div>
+            <div class="song-controls">
+                <button class="play-btn">▶</button>
+                <button class="pause-btn">⏸</button>
+            </div>
+        </li>
+        
+        <li class="song-container">
+            <img src="image/me.jpg" alt="icon">
+            <div class="song-info">
+                Skyline <span>Alice Oliver</span> 03:50
+            </div>
+            <div class="song-controls">
+                <button class="play-btn">▶</button>
+                <button class="pause-btn">⏸</button>
+            </div>
+        </li>
+    </ul>
+    
+</main>
+
+        <!-- Right Sidebar -->
+                <div class="music-player">
+                    <div class="album-cover">
+                        <img src="image/right side.jpg" alt="Album Cover">
+                    </div>
+                    <div class="player">
+                        <h2 class="song-title">A New Day<span>🎵</span></h2>
+                        <p class="artist"><b>By: </b>Alice Oliver</p>
+                        <div class="progress-container">
+                            <span id="current-time">0:00</span>
+                            <input type="range" id="progress" value="0" min="0" max="100">
+                            <span id="total-duration">0:00</span>
+                        </div>
+                        <div class="controls">
+                            <button id="prev">⏮</button>
+                            <button id="playPause">▶️</button>
+                            <button id="next">⏭</button>
+                        </div>
+                        
+                        
+                    </div>
+                    <ul class="playlist">
+                        <li class="song" data-src="songs/song 5.mp3">
+                            <img src="image/therapy.jpg" alt="Therapy">
+                            <div>
+                                <span>Therapy</span>
+                                <p>Oneheart</p>
+                            </div>
+                            <span>2:02</span>
+                        </li>
+                        <li class="song" data-src="songs/song 4.mp3">
+                            <img src="image/apothy.jpg" alt="Apathy">
+                            <div>
+                                <span>Apathy</span>
+                                <p>Tecca</p>
+                            </div>
+                            <span>2:02</span>
+                        </li>
+                        <li class="song" data-src="songs/song 1.mp3">
+                            <img src="image/looks i am here.jpg" alt="Look I'm here">
+                            <div>
+                                <span>Look I'm here</span>
+                                <p>Oneheart</p>
+                            </div>
+                            <span>2:02</span>
+                        </li>
+                    </ul>
+                  
+<div class="controls">
+    <button id="speed-down">➖ Speed</button>
+    <button <span id="playback-speed">1.0x</span></button>
+    <button id="speed-up">➕ Speed</button>
+    <button id="favorite">❤️ Favorite</button>
+    <button id="add-to-playlist">➕ Add to Playlist</button>
+    <button id="remove-from-playlist">❌Remove from Playlist</button>
+
+</div>
+
+<audio id="audio-player" src=""></audio>
+
+               
+
+    <script src="script.js"></script>
+</body>
+</html>
